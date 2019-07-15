@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800&display=swap');
+
+body {
+    margin: 0 auto;
+    background-color: #8080804d;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body .container-fluid {
+    background-color: whitesmoke;
+}
+header .text-center{
+    margin: 10px 0px;
+}
+.btna {
+    margin-right: 10px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 6.37in;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px; 
+    text-decoration: none;
+    font-size: 14px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.addPlayer a img {
+    padding: 0px 0px 5px 0px;
+}
+.addPlayer {
+    padding-left: 0 30%;
+    /* width: 100px; */
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.autogame {
+    display: inline-block;
+    padding-right: 10px;
+}
+.select1{
+    width: 200px;
+    display: inline-block;
+}
+.select{
+    width: 150px;
+    display: inline-block;
+}
+.textfield{
+    width: 700px !important;
+    display: inline-block;
+}
+.firsttd{
+    margin-bottom: 300px;
+}
+footer {
+    border-top-style: solid;
+    border-color: #333;
+    /* background-color: black; */
+    padding-top: 10px;
+}
+footer .games {
+display: inline-block;
+}
+footer div .table2 {
+    /* display: inline-block; */
+    width: 80%;
+    float: right;
+    margin-bottom: 40px;
+    border-left-style: solid;
+}
+.gameslist{
+    border-left-style: solid;
+    border-left-color: black;   
+}
+
+/*----------------------------------------- Settings.html-------------------------------------------------- */
+
+/* horizontal-lines */
+.line {
+    background-color: black;
+    height: 2.3px;
+}
+.line2 {
+    background-color: rgb(17, 15, 15, .5);
+    height: 0.8px;
+}
+.line3 {
+    background-color: rgb(17, 15, 15, .5);
+    height: 1px;
+    margin-top: 136px;
+}
+/* end of horizontal lines */
+
+div .setting {
+    background-color: rgb(93, 104, 120, 0.3);
+    padding: 10px 0px 5px 10px; 
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.kg {
+    width: 300px;
+    float: right;
+    margin: 15px 0px 0px 0px;
+}
+.weight {
+    float: left;
+    padding: 20px 0px 0px 20px;
+}
+.weight h2, .byePlayer h2 {
+    margin-bottom: 25px;
+}
+.byePlayer {
+    float: left;
+    padding: 20px 0px 0px 20px;
+    height: 50%vh;
+}
+.byePlayer p{
+    width: 80%;
+}
+.byeplayerwidth {
+    width: 300px;
+    float: right;
+    margin: 15px 0px 0px 0px;
+}
+
+/* -----------------------------------------------------DivisionsPlanner --------------------------------*/
+thead .tcenter th{
+    text-align: center;
+}
+.black td:not(.tdigit){
+    background-color: black;
+    color: white;
+}
+.blue td:not(.tdigit){
+    background-color:blue;
+    color: white;
+}
+
+/* --------------------------Division ---------------------------*/
+.qmark{
+        display: inline-block; 
+        font-size: 40px;
+        font-weight: bold;
+        border-style: solid; 
+        padding: 5px 10px 5px 20px; 
+        margin: 20px 0px 0px 20px; 
+        width: 30px; 
+        background-color: green;
+        color: white;
+        border-color:green;
+        -webkit-box-shadow: 6px 6px #666;
+    }
+.majorsection {
+    padding-left: 85px;
+    padding-top: 10px;
+}
+.divheader, .round2 div:first-child {
+    border-style: solid;
+    border-color:rgb(156, 158, 161);
+    border-width: 2px;
+}
+div .divcolors li, div .divgender li, div .divdivision li {
+    list-style: none;
+    display: inline-block;
+    width: 220px;
+    font-size: 25px;
+}
+div .divdivision li form{
+    width: 550px;
+}
+div .divdivision li select{
+    width: 445px;
+    height: 33px;
+    font-size: 23px;
+    padding-left: 2px;
+}
+div .divcolors li input {
+    vertical-align: middle;
+}
+div .divcolors li:nth-last-child(5){
+    background-color: black; 
+    color: white;   
+}
+div .divcolors li:nth-last-child(4){
+    background-color: red;
+    color: white; 
+}
+div .divcolors li:nth-last-child(3){
+    background-color: blue;
+    color: white; 
+}
+div .divcolors li:nth-last-child(2){
+    background-color: green;
+    color: white; 
+}
+div .divcolors li:nth-last-child(1){
+    background-color: rgb(230, 233, 5);
+    color: black; 
+}
+.round {
+    margin-bottom: 30px;
+}
+.round select {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+.round div input{
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.round textarea {
+    width: 14.5in;
+    height: 200px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.round .button {
+    width: 90px;
+    height: 50px;
+    font-size: 24px;
+    margin-left: 20px;
+    /* position: absolute; */
+}
+
+.divbutton {
+    position: absolute;
+    left: 45%;
+    margin-top: 50px;
+}
+.endtime {
+    width: 100%;
+    height: 40px;
+}
+/* ---------------------------------end of divisions-----------------------------------  */
+
+/*-------------------- start of divisions2 -----------------------------------------*/
+.round2 select {
+    width: 5.05in;
+    font-size: 30px;
+    padding: 2px;
+}
+.round div:first-child{
+    margin-top: 5px;
+    padding: 20px;
+}
+
+    /*-------------------- end of divisions2 -----------------------------------------*/
+
+
+    /* ----------------------------------------start of info-------------------------------- */
+.info div h4, .info div div {
+    display: inline-block;
+}
+.info div h4 {
+    /* border-bottom-style: solid; */
+    float: left;
+}
+/* ----------------------------------------end of info-------------------------------- */
+.biro { 
+    /* border: 1px solid black;  */
+    color:rgb(8, 1, 1); 
+    padding: 10px 83px; 
+    cursor: pointer; 
+    float: left;
+    }
+    .btn-group button:not(:last-child) {
+    border-right: none;
+    }
+    .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    .btn-group button:hover {
+    background-color: #3e8e41;
+    }
+
+      /* ---------------------------tkd4------------------------------- */
+.container-fluid div section:nth-last-child(2) {
+    height:700px;
+    width: 80%;
+    margin-right: 2%;
+    /* border-style: solid; */
+    float: left;
+}
+.container-fluid div section:nth-last-child(1){
+    height: 700px;
+    width: 18%;
+    border-style: solid;
+    display: inline-block;
+    background-color: lightblue;
+}
+/* .container-fluid div section:nth-last-child(2), .container-fluid div section:nth-last-child(1) */

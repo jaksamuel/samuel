@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800&display=swap');
+.btn-group button {
+    background-color: #f5e020; 
+    border: 1px solid black; 
+    color:rgb(8, 1, 1); 
+    padding: 10px 63px; 
+    cursor: pointer; 
+    float: left;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none;
+  }
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+.red-corner{
+background-color: red;
+width:450px;
+color:white;
+}
+.center{
+    width:450px;
+    height: 400px;
+    text-align:center; 
+}
+.phone{
+    position: relative;
+top: 20px;
+text-align:center;
+font-size: 30px; 
+}
+.game-time{
+    position: relative;
+    top: 25px;
+    text-align:center;
+    font-size: 75px; 
+    background-color:yellow; 
+}
+.blue-corner{
+    background-color:blue;
+width:450px;
+color:white;
+}
+.sun{
+    display: inline-block;
+    font-size:30px; 
+    height: 100%;
+    float:center;
+}
+#fm{
+    display:none;
+    font-size:100px; 
+}
+.soon{
+    font-size:20px;
+    text-align: center;
+}
+.dell{
+    font-size:20px;
+    text-align: center;
+}
+.magi{
+    font-size:200px;
+}
+.sack{
+    background-color: white;
+    color: black;
+}
+.muck{
+    background-color:blue; 
+}
+.hamid{
+    background-color: red;
+}
+h2{
+    background-color: red;
+}
+.score-title2 {
+    margin-left: 370px;
+    margin-bottom: 100px; 
+    display: inline-block;
+}
+.tolu{
+    background-color:black; 
+}
+.btn{
+    background-color:black;
+    height: 70px;
+}
+.winner{
+    height: 40px; 
+    background-color:  black;
+    display:inline; 
+}
+.winner1{
+    float: left;
+    padding-right: 300px;
+}
+.btn1 {
+    float:left;
+    padding-left: 10px;
+}
+.btn2 {
+    float: right;
+}
+.btn1 button {
+    width: 80px;
+    height: 30px;
+}
+.btn2 button {
+    width: 80px;
+    height: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.game-round{
+    font-size:100px;  
+}
+
+/*--------------------------- start of 2ndpage */
+
+.btn-group button {
+    background-color: #f5e020; 
+    border: 1px solid black; 
+    color:rgb(8, 1, 1); 
+    padding: 10px 63px; 
+    cursor: pointer; 
+    float: left;
+  }
+  .tomi{
+      position: relative;
+      left: 50%;
+      margin-bottom: 50px;
+    }
+.btn419{
+    margin: 0 auto 30px;
+}  
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.btn-group button:hover {
+    background-color: #3e8e41;
+  }
+.zee{
+    position: absolute;
+    left:30px;
+    margin-top:60px;
+}
+.kick{
+    float:right;
+    position: absolute;
+    right:30px;
+    margin-top:80px; 
+}
+
